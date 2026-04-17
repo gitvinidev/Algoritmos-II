@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h>
+int main{
+
+typedef struct s
+{
+    int x;
+    int y;
+} coordenada;
+
+typedef struct p
+{
+    char nome[101];
+    pessoa mae;
+    
+} pessoa;
+
+pessoa p1;
+strcpy(p1.nome,"PH");
+
+pessoa p2;
+strcpy(p2.nome,"Augusta");
+
+pessoa p3;
+strcpy(p3.nome,"creo");
+
+p1.nome
+p1.mae.nome
+p1.mae.mae.nome
+pi.pai.nome.mae
+return (0);
+
+}

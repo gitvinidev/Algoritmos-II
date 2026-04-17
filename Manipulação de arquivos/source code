@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    //abertura de um arquivo
+    //tipos de abertura: r(leitura), 
+    //w(apaga tudo depois grava), 
+    //a(abre, mantem as informções e gravação)...
+    //fopen é para abrir o arquivo;
+    fopen ("teste.txt", "tipo de abertura")
+    
+    //leitura do arquivo
+    fscanf (%d, %d, &x, %y);
+    //oef: end of file
+    while (fscanf(arquivo, "formatação do arquivo", &variavel)!=eof)
+    return 0;
+}
